@@ -58,7 +58,7 @@ export default function ValentineTrap() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ staggerChildren: 1.5}}
+            transition={{ staggerChildren: 4 }}
           >
             <p className="typing-effect">{`> ACCESSING RECIPE_DB...`}</p>
             <p className="typing-effect text-yellow-500">{`> WARNING: BISCOFF_PROTOCOL DETECTED`}</p>
