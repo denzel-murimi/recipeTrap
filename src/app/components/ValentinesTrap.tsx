@@ -9,7 +9,7 @@ export default function ValentineTrap() {
 
   // Auto-transition from glitch to proposal
   if (stage === "glitch") {
-    setTimeout(() => setStage("proposal"), 2500);
+    setTimeout(() => setStage("proposal"), 5000);
   }
 
   const handleYes = () => {
@@ -58,7 +58,7 @@ export default function ValentineTrap() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ staggerChildren: 10 }}
+            transition={{ staggerChildren: 0.5 }}
           >
             <p className="typing-effect">{`> ACCESSING RECIPE_DB...`}</p>
             <p className="typing-effect text-yellow-500">{`> WARNING: BISCOFF_PROTOCOL DETECTED`}</p>
